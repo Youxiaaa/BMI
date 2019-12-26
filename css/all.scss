@@ -32,6 +32,12 @@ html,body{
     background-color: #fff;
     border-radius: 5px;
     display: inline-block;
+    transition: .3s;
+    user-select: none;
+}
+.list li:hover{
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 15px gray;
 }
 .list span{
     font-size: 24px;
