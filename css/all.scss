@@ -1,0 +1,55 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body{
+    font-family: "Helvetica", "Arial","LiHei Pro","黑體-繁","微軟正黑體", sans-serif;
+}
+html,body{
+    height: 100%;
+    position: relative;
+}
+.sendArea{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+    -moz-user-select: none;
+}
+.sendArea:hover{
+    box-shadow: 0px 0px 15px #ffd366;
+}
+.sendArea:active{
+    background-color: #dea821 !important;
+    box-shadow: none;
+}
+.inputHeight, .inputWeight{
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid;
+}
+.list li{
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+}
+.list span{
+    font-size: 24px;
+    font-weight: bold;
+    color: #999;
+}
+.border-green{
+    border-left: 6px solid #86d73f;
+}
+.border-thin{
+    border-left: 6px solid #31baf9;
+}
+.border-fat{
+    border-left: 6px solid #ff982d;
+}
+.border-soFat{
+    border-left: 5px solid #ff6c03;
+}
+.border-veryFat{
+    border-left: 6px solid #ff1200;
+}
